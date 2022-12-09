@@ -58,6 +58,7 @@ pages.forEach((pathname) => {
   baseConfig.plugins.push(new HtmlWebpackPlugin(conf));
 });
 
+// https://github.com/isaacs/node-glob
 function getEntry(globPath) {
   const files = glob.sync(globPath);
 
