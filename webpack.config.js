@@ -19,7 +19,7 @@ const baseConfig = {
       {
         test: /\.s?css$/,
         // use: ['style-loader', 'css-loader'],
-        use: [MiniCssExtractPlugin.loader, 'css-loader'],
+        use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader'],
       },
       {
         test: /\.png$/,

@@ -1,3 +1,19 @@
 # webpack-html-css-js
 
-프론트엔드 개발을 위한 웹팩 설정
+Webpack Development Environment
+
+- HTML
+- SCSS
+- JS
+
+### build
+
+```bash
+npm run build
+```
+
+### start
+
+```
+npm start
+```
